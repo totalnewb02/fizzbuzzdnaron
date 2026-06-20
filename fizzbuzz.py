@@ -1,3 +1,8 @@
-def fizzbuzz_logic(number):
-    # This takes the number passed to it and just returns '1' as a string
-    return '1'
+def fizzbuzz_logic (number):
+    for i in range (0, 101):
+        if i % 3 == 0:
+            print ('fizz')
+        elif i % 5 ==0:
+            print ('buzz')
+        else:
+            print (i)
